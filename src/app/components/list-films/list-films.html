@@ -1,0 +1,14 @@
+<div class="carrossel">
+
+</div>
+<div class="container">
+    <div class="Filmes" *ngFor="let filme of filmes">
+        <img src="#" alt="">
+        <h2>{{ filme.id }}</h2>
+        <p>{{ filme.nomeFilme }}</p>
+        <div class="buttons">
+            <button [routerLink]="['/filmes', filme.id]">Ver</button>
+            <button (click)="Deletar(filme.id)">Deletar</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+.footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 4px solid #f39c12;
+    font-family: 'Segoe UI', sans-serif;
+}
+  
+  .footer h4 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #f39c12;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .icons i {
+    cursor: pointer;
+    color: #f39c12;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .icons i:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+  }
+  
+  .footer .assinatura {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .footer .assinatura i {
+    color: #f39c12;
+  }
+  

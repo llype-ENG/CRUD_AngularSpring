@@ -1,0 +1,18 @@
+<form [formGroup]="formulario" (ngSubmit)="submit()">
+  <div>
+    <label for="nome">Identificador:</label>
+    <input id="Identificador" type="text" formControlName="id" />
+  </div>
+
+  <div>
+    <label for="nome">Nome:</label>
+    <input id="nome" type="text" formControlName="nomeFilme" />
+  </div>
+
+  <div>
+    <label for="email">Descriçao:</label>
+    <input id="descriFilme"  type="text" formControlName="descriFilme" />
+  </div>
+
+  <button type="submit">Enviar</button>
+</form>

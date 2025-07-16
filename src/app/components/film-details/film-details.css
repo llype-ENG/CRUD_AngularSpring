@@ -1,0 +1,35 @@
+.FilmDetails {
+    max-width: 600px;
+    margin: 80px auto; /* centraliza vertical e horizontal */
+    padding: 32px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    transition: transform 0.3s ease;
+  }
+  
+  .FilmDetails:hover {
+    transform: scale(1.02);
+  }
+  
+  .FilmDetails h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: #f39c12;
+  }
+  
+  .FilmDetails h2 {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 8px;
+  }
+  
+  .FilmDetails p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #dddddd;
+  }
+  
